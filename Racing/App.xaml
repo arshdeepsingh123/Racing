@@ -1,0 +1,12 @@
+﻿<Application x:Class="Racing.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Racing"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Image x:Key="PlayImage" Source="Image/play.png"/>
+        <Image x:Key="LeaveImage" Source="image/exit.png"/>
+        <Image x:Key="PlaceBetImage" Source="image/bet.png"/>
+        <Image x:Key="RestartImage" Source="image/reset.png"/>
+    </Application.Resources>
+</Application>
